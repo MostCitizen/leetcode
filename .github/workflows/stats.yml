@@ -1,0 +1,34 @@
+name: Update LeetCode Stats
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate README
+        run: python scripts/generate_readme.py
+
+      - name: Commit README
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add README.md
+
+          git diff --cached --quiet || git commit -m "Update LeetCode stats"
+
+          git push
