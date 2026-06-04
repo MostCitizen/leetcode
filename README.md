@@ -4,23 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 5 | 1 | 0 | 6 |
+| C++ | 5 | 2 | 0 | 7 |
 
-**Total Solved:** 6
+**Total Solved:** 7
 
-Last Updated: 2026-06-03 10:26 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0189-rotate-array](https://github.com/MostCitizen/leetcode/tree/master/0189-rotate-array) |
-## Math
-|  |
-| ------- |
-| [0189-rotate-array](https://github.com/MostCitizen/leetcode/tree/master/0189-rotate-array) |
-## Two Pointers
-|  |
-| ------- |
-| [0189-rotate-array](https://github.com/MostCitizen/leetcode/tree/master/0189-rotate-array) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-04 09:25 UTC
