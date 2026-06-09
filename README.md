@@ -4,15 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 17 | 10 | 0 | 27 |
+| C++ | 18 | 10 | 0 | 28 |
 
-**Total Solved:** 27
+**Total Solved:** 28
 
-Last Updated: 2026-06-09 11:04 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0228-summary-ranges](https://github.com/MostCitizen/leetcode/tree/master/0228-summary-ranges) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-09 14:17 UTC
