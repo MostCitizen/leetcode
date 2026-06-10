@@ -4,19 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 18 | 12 | 0 | 30 |
+| C++ | 19 | 12 | 0 | 31 |
 
-**Total Solved:** 30
+**Total Solved:** 31
 
-Last Updated: 2026-06-10 10:24 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0020-valid-parentheses) |
-## Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0020-valid-parentheses) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-10 11:30 UTC
