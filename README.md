@@ -4,19 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 20 | 15 | 0 | 35 |
+| C++ | 21 | 15 | 0 | 36 |
 
-**Total Solved:** 35
+**Total Solved:** 36
 
-Last Updated: 2026-06-11 08:33 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0021-merge-two-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0021-merge-two-sorted-lists) |
-## Recursion
-|  |
-| ------- |
-| [0021-merge-two-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0021-merge-two-sorted-lists) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-11 08:40 UTC
