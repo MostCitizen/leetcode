@@ -4,23 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 24 | 18 | 1 | 43 |
+| C++ | 24 | 19 | 1 | 44 |
 
-**Total Solved:** 43
+**Total Solved:** 44
 
-Last Updated: 2026-06-14 08:49 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0022-generate-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0022-generate-parentheses) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0022-generate-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0022-generate-parentheses) |
-## Backtracking
-|  |
-| ------- |
-| [0022-generate-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0022-generate-parentheses) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-15 08:51 UTC
