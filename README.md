@@ -4,19 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 25 | 24 | 2 | 51 |
+| C++ | 25 | 25 | 2 | 52 |
 
-**Total Solved:** 51
+**Total Solved:** 52
 
-Last Updated: 2026-06-17 08:01 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0373-find-k-pairs-with-smallest-sums](https://github.com/MostCitizen/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0373-find-k-pairs-with-smallest-sums](https://github.com/MostCitizen/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-17 08:33 UTC
