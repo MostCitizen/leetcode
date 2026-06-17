@@ -4,19 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 27 | 25 | 3 | 55 |
+| C++ | 27 | 26 | 3 | 56 |
 
-**Total Solved:** 55
+**Total Solved:** 56
 
-Last Updated: 2026-06-17 09:07 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0137-single-number-ii](https://github.com/MostCitizen/leetcode/tree/master/0137-single-number-ii) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0137-single-number-ii](https://github.com/MostCitizen/leetcode/tree/master/0137-single-number-ii) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-17 09:45 UTC
