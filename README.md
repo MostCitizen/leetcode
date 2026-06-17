@@ -4,15 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 29 | 26 | 3 | 58 |
+| C++ | 29 | 27 | 3 | 59 |
 
-**Total Solved:** 58
+**Total Solved:** 59
 
-Last Updated: 2026-06-17 09:59 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0172-factorial-trailing-zeroes](https://github.com/MostCitizen/leetcode/tree/master/0172-factorial-trailing-zeroes) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-17 10:06 UTC
