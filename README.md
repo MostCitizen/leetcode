@@ -4,31 +4,8 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 25 | 23 | 2 | 50 |
+| C++ | 25 | 24 | 2 | 51 |
 
-**Total Solved:** 50
+**Total Solved:** 51
 
-Last Updated: 2026-06-16 15:28 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0215-kth-largest-element-in-an-array](https://github.com/MostCitizen/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0215-kth-largest-element-in-an-array](https://github.com/MostCitizen/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
-## Sorting
-|  |
-| ------- |
-| [0215-kth-largest-element-in-an-array](https://github.com/MostCitizen/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0215-kth-largest-element-in-an-array](https://github.com/MostCitizen/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
-## Quickselect
-|  |
-| ------- |
-| [0215-kth-largest-element-in-an-array](https://github.com/MostCitizen/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-17 08:01 UTC
