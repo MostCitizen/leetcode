@@ -10,3 +10,10 @@
 **Total Solved:** 64
 
 Last Updated: 2026-06-18 07:15 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [1148-article-views-i](https://github.com/MostCitizen/leetcode/tree/master/1148-article-views-i) |
+<!---LeetCode Topics End-->
