@@ -5,15 +5,8 @@
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
 | C++ | 31 | 27 | 3 | 61 |
-| SQL | 3 | 0 | 0 | 3 |
+| SQL | 4 | 0 | 0 | 4 |
 
-**Total Solved:** 64
+**Total Solved:** 65
 
-Last Updated: 2026-06-18 07:15 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [1148-article-views-i](https://github.com/MostCitizen/leetcode/tree/master/1148-article-views-i) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-06-18 07:28 UTC
