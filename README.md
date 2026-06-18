@@ -10,3 +10,10 @@
 **Total Solved:** 68
 
 Last Updated: 2026-06-18 08:01 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [1068-product-sales-analysis-i](https://github.com/MostCitizen/leetcode/tree/master/1068-product-sales-analysis-i) |
+<!---LeetCode Topics End-->
