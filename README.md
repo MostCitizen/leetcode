@@ -10,3 +10,10 @@
 **Total Solved:** 71
 
 Last Updated: 2026-06-22 10:06 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [1661-average-time-of-process-per-machine](https://github.com/MostCitizen/leetcode/tree/master/1661-average-time-of-process-per-machine) |
+<!---LeetCode Topics End-->
