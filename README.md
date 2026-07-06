@@ -6,15 +6,8 @@
 |----------|------|--------|------|--------|
 | C++ | 33 | 40 | 3 | 76 |
 | Python | 2 | 1 | 0 | 3 |
-| SQL | 13 | 2 | 0 | 15 |
+| SQL | 14 | 2 | 0 | 16 |
 
-**Total Solved:** 94
+**Total Solved:** 95
 
-Last Updated: 2026-07-06 10:03 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [1251-average-selling-price](https://github.com/MostCitizen/leetcode/tree/master/1251-average-selling-price) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-06 10:22 UTC
