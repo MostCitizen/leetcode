@@ -6,15 +6,8 @@
 |----------|------|--------|------|--------|
 | C++ | 33 | 40 | 3 | 76 |
 | Python | 2 | 1 | 0 | 3 |
-| SQL | 12 | 1 | 0 | 13 |
+| SQL | 12 | 2 | 0 | 14 |
 
-**Total Solved:** 92
+**Total Solved:** 93
 
-Last Updated: 2026-07-06 09:28 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [1934-confirmation-rate](https://github.com/MostCitizen/leetcode/tree/master/1934-confirmation-rate) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-06 09:59 UTC
