@@ -11,3 +11,10 @@
 **Total Solved:** 92
 
 Last Updated: 2026-07-06 09:28 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [1934-confirmation-rate](https://github.com/MostCitizen/leetcode/tree/master/1934-confirmation-rate) |
+<!---LeetCode Topics End-->
