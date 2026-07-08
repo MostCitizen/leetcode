@@ -18,23 +18,19 @@ public:
                         return false;
                     }
                     else if(matrix[rowM][colM] > target) {
-                        if(colR == colM) colR--;
-                        else colR = colM;
+                        colR = colM - 1;
                     }
                     else if(matrix[rowM][colM] < target){
-                        if(colL == colM) colR++;
-                        else colL = colM;
+                        colL = colM + 1;
                     }
                 }
                 return false;
             }
             else if(matrix[rowM][0] > target){
-                if(rowR == rowM) rowR--;
-                else rowR = rowM;
+                rowR = rowM - 1;
             }
             else {
-                if(rowL == rowM) rowL++;
-                else rowL = rowM;
+                rowL = rowM + 1;
             }
         }
         return false;
