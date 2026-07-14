@@ -6,15 +6,8 @@
 |----------|------|--------|------|--------|
 | C++ | 34 | 49 | 3 | 86 |
 | Python | 2 | 1 | 0 | 3 |
-| SQL | 14 | 2 | 0 | 16 |
+| SQL | 15 | 2 | 0 | 17 |
 
-**Total Solved:** 105
+**Total Solved:** 106
 
-Last Updated: 2026-07-14 08:07 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [1075-project-employees-i](https://github.com/MostCitizen/leetcode/tree/master/1075-project-employees-i) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-14 09:29 UTC
