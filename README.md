@@ -11,3 +11,22 @@
 **Total Solved:** 120
 
 Last Updated: 2026-07-17 08:46 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2542-maximum-subsequence-score](https://github.com/MostCitizen/leetcode/tree/master/2542-maximum-subsequence-score) |
+## Greedy
+|  |
+| ------- |
+| [2542-maximum-subsequence-score](https://github.com/MostCitizen/leetcode/tree/master/2542-maximum-subsequence-score) |
+## Sorting
+|  |
+| ------- |
+| [2542-maximum-subsequence-score](https://github.com/MostCitizen/leetcode/tree/master/2542-maximum-subsequence-score) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2542-maximum-subsequence-score](https://github.com/MostCitizen/leetcode/tree/master/2542-maximum-subsequence-score) |
+<!---LeetCode Topics End-->
