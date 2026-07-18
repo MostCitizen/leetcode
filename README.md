@@ -11,3 +11,18 @@
 **Total Solved:** 121
 
 Last Updated: 2026-07-17 09:12 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/MostCitizen/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Math
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/MostCitizen/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/MostCitizen/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
+<!---LeetCode Topics End-->
