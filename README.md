@@ -4,25 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 35 | 61 | 3 | 99 |
+| C++ | 36 | 61 | 3 | 100 |
 | Python | 3 | 1 | 0 | 4 |
 | SQL | 16 | 2 | 0 | 18 |
 
-**Total Solved:** 121
+**Total Solved:** 122
 
-Last Updated: 2026-07-17 09:12 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1979-find-greatest-common-divisor-of-array](https://github.com/MostCitizen/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
-## Math
-|  |
-| ------- |
-| [1979-find-greatest-common-divisor-of-array](https://github.com/MostCitizen/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
-## Number Theory
-|  |
-| ------- |
-| [1979-find-greatest-common-divisor-of-array](https://github.com/MostCitizen/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-18 10:21 UTC
