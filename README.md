@@ -10,15 +10,4 @@
 
 **Total Solved:** 130
 
-Last Updated: 2026-07-22 07:29 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0039-combination-sum](https://github.com/MostCitizen/leetcode/tree/master/0039-combination-sum) |
-## Backtracking
-|  |
-| ------- |
-| [0039-combination-sum](https://github.com/MostCitizen/leetcode/tree/master/0039-combination-sum) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-22 07:35 UTC
