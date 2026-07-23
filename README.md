@@ -17,10 +17,12 @@ Last Updated: 2026-07-23 08:22 UTC
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -29,4 +31,9 @@ Last Updated: 2026-07-23 08:22 UTC
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
 <!---LeetCode Topics End-->
