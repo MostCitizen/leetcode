@@ -4,36 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 38 | 71 | 3 | 112 |
-| Python | 1 | 1 | 0 | 2 |
+| C++ | 36 | 71 | 3 | 110 |
+| Python | 3 | 1 | 0 | 4 |
 | SQL | 16 | 2 | 0 | 18 |
 
 **Total Solved:** 132
 
-Last Updated: 2026-07-23 08:22 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
-## Binary Search Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0101-symmetric-tree](https://github.com/MostCitizen/leetcode/tree/master/0101-symmetric-tree) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-23 08:46 UTC
