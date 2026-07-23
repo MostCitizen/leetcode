@@ -4,21 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 36 | 71 | 3 | 110 |
-| Python | 3 | 1 | 0 | 4 |
+| C++ | 38 | 71 | 3 | 112 |
+| Python | 1 | 1 | 0 | 2 |
 | SQL | 16 | 2 | 0 | 18 |
 
 **Total Solved:** 132
 
-Last Updated: 2026-07-23 07:05 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0153-find-minimum-in-rotated-sorted-array](https://github.com/MostCitizen/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
-## Binary Search
-|  |
-| ------- |
-| [0153-find-minimum-in-rotated-sorted-array](https://github.com/MostCitizen/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-23 07:21 UTC
