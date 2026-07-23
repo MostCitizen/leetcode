@@ -10,23 +10,4 @@
 
 **Total Solved:** 132
 
-Last Updated: 2026-07-23 08:53 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/MostCitizen/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/MostCitizen/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/MostCitizen/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0104-maximum-depth-of-binary-tree](https://github.com/MostCitizen/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-23 09:05 UTC
