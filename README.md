@@ -11,3 +11,18 @@
 **Total Solved:** 134
 
 Last Updated: 2026-07-27 10:01 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/MostCitizen/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Sorting
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/MostCitizen/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Counting Sort
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/MostCitizen/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+<!---LeetCode Topics End-->
