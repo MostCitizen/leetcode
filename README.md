@@ -10,15 +10,4 @@
 
 **Total Solved:** 136
 
-Last Updated: 2026-07-28 14:14 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/MostCitizen/leetcode/tree/master/0001-two-sum) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/MostCitizen/leetcode/tree/master/0001-two-sum) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-07-29 07:30 UTC
