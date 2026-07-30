@@ -11,3 +11,18 @@
 **Total Solved:** 136
 
 Last Updated: 2026-07-29 11:54 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MostCitizen/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+## String
+|  |
+| ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MostCitizen/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+## Greedy
+|  |
+| ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MostCitizen/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+<!---LeetCode Topics End-->
