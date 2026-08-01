@@ -10,15 +10,4 @@
 
 **Total Solved:** 145
 
-Last Updated: 2026-08-01 12:52 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Stack
-|  |
-| ------- |
-| [0155-min-stack](https://github.com/MostCitizen/leetcode/tree/master/0155-min-stack) |
-## Design
-|  |
-| ------- |
-| [0155-min-stack](https://github.com/MostCitizen/leetcode/tree/master/0155-min-stack) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-01 13:34 UTC
