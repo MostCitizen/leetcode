@@ -11,3 +11,14 @@
 **Total Solved:** 145
 
 Last Updated: 2026-07-31 09:20 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/MostCitizen/leetcode/tree/master/0020-valid-parentheses) |
+<!---LeetCode Topics End-->
