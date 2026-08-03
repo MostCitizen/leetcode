@@ -10,19 +10,4 @@
 
 **Total Solved:** 146
 
-Last Updated: 2026-08-03 15:03 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0056-merge-intervals](https://github.com/MostCitizen/leetcode/tree/master/0056-merge-intervals) |
-## Sorting
-|  |
-| ------- |
-| [0056-merge-intervals](https://github.com/MostCitizen/leetcode/tree/master/0056-merge-intervals) |
-## Quicksort
-|  |
-| ------- |
-| [0056-merge-intervals](https://github.com/MostCitizen/leetcode/tree/master/0056-merge-intervals) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-03 15:12 UTC
