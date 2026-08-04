@@ -11,3 +11,14 @@
 **Total Solved:** 149
 
 Last Updated: 2026-08-04 10:22 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0046-permutations](https://github.com/MostCitizen/leetcode/tree/master/0046-permutations) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/MostCitizen/leetcode/tree/master/0046-permutations) |
+<!---LeetCode Topics End-->
