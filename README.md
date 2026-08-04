@@ -11,3 +11,14 @@
 **Total Solved:** 148
 
 Last Updated: 2026-08-04 08:35 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0136-single-number](https://github.com/MostCitizen/leetcode/tree/master/0136-single-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/MostCitizen/leetcode/tree/master/0136-single-number) |
+<!---LeetCode Topics End-->
