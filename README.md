@@ -10,19 +10,4 @@
 
 **Total Solved:** 149
 
-Last Updated: 2026-08-04 10:52 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0078-subsets](https://github.com/MostCitizen/leetcode/tree/master/0078-subsets) |
-## Backtracking
-|  |
-| ------- |
-| [0078-subsets](https://github.com/MostCitizen/leetcode/tree/master/0078-subsets) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0078-subsets](https://github.com/MostCitizen/leetcode/tree/master/0078-subsets) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-04 11:10 UTC
