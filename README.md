@@ -10,15 +10,4 @@
 
 **Total Solved:** 150
 
-Last Updated: 2026-08-05 07:28 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/MostCitizen/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
-## Binary Search
-|  |
-| ------- |
-| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/MostCitizen/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-05 08:45 UTC
