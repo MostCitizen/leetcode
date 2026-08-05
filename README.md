@@ -11,3 +11,18 @@
 **Total Solved:** 150
 
 Last Updated: 2026-08-05 06:24 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/MostCitizen/leetcode/tree/master/0131-palindrome-partitioning) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/MostCitizen/leetcode/tree/master/0131-palindrome-partitioning) |
+## Backtracking
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/MostCitizen/leetcode/tree/master/0131-palindrome-partitioning) |
+<!---LeetCode Topics End-->
