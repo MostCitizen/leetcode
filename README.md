@@ -11,3 +11,14 @@
 **Total Solved:** 150
 
 Last Updated: 2026-08-05 09:19 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/MostCitizen/leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
+## Enumeration
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/MostCitizen/leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
+<!---LeetCode Topics End-->
