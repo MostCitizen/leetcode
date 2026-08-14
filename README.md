@@ -11,3 +11,14 @@
 **Total Solved:** 161
 
 Last Updated: 2026-08-14 09:50 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/MostCitizen/leetcode/tree/master/0024-swap-nodes-in-pairs) |
+## Recursion
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/MostCitizen/leetcode/tree/master/0024-swap-nodes-in-pairs) |
+<!---LeetCode Topics End-->
