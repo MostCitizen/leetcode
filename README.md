@@ -4,21 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 48 | 92 | 5 | 145 |
+| C++ | 49 | 92 | 5 | 146 |
 | Python | 0 | 1 | 0 | 1 |
 | SQL | 16 | 2 | 0 | 18 |
 
-**Total Solved:** 164
+**Total Solved:** 165
 
-Last Updated: 2026-08-16 13:03 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3471-find-the-largest-almost-missing-integer](https://github.com/MostCitizen/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
-## Hash Table
-|  |
-| ------- |
-| [3471-find-the-largest-almost-missing-integer](https://github.com/MostCitizen/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-18 06:37 UTC
