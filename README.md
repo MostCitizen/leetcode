@@ -11,3 +11,14 @@
 **Total Solved:** 165
 
 Last Updated: 2026-08-18 07:40 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0041-first-missing-positive](https://github.com/MostCitizen/leetcode/tree/master/0041-first-missing-positive) |
+## Hash Table
+|  |
+| ------- |
+| [0041-first-missing-positive](https://github.com/MostCitizen/leetcode/tree/master/0041-first-missing-positive) |
+<!---LeetCode Topics End-->
