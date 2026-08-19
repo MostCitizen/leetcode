@@ -4,29 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 49 | 92 | 6 | 147 |
+| C++ | 49 | 93 | 6 | 148 |
 | Python | 0 | 1 | 0 | 1 |
 | SQL | 16 | 2 | 0 | 18 |
 
-**Total Solved:** 166
+**Total Solved:** 167
 
-Last Updated: 2026-08-18 08:27 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1386-cinema-seat-allocation](https://github.com/MostCitizen/leetcode/tree/master/1386-cinema-seat-allocation) |
-## Hash Table
-|  |
-| ------- |
-| [1386-cinema-seat-allocation](https://github.com/MostCitizen/leetcode/tree/master/1386-cinema-seat-allocation) |
-## Greedy
-|  |
-| ------- |
-| [1386-cinema-seat-allocation](https://github.com/MostCitizen/leetcode/tree/master/1386-cinema-seat-allocation) |
-## Bit Manipulation
-|  |
-| ------- |
-| [1386-cinema-seat-allocation](https://github.com/MostCitizen/leetcode/tree/master/1386-cinema-seat-allocation) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-19 09:10 UTC
