@@ -10,15 +10,4 @@
 
 **Total Solved:** 168
 
-Last Updated: 2026-08-20 08:47 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/MostCitizen/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
-## Two Pointers
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/MostCitizen/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-20 08:53 UTC
