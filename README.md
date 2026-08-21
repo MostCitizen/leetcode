@@ -10,19 +10,4 @@
 
 **Total Solved:** 168
 
-Last Updated: 2026-08-20 09:30 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MostCitizen/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MostCitizen/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-## Greedy
-|  |
-| ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MostCitizen/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-21 03:31 UTC
