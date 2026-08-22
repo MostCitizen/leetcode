@@ -10,19 +10,4 @@
 
 **Total Solved:** 172
 
-Last Updated: 2026-08-22 09:05 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0392-is-subsequence](https://github.com/MostCitizen/leetcode/tree/master/0392-is-subsequence) |
-## String
-|  |
-| ------- |
-| [0392-is-subsequence](https://github.com/MostCitizen/leetcode/tree/master/0392-is-subsequence) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0392-is-subsequence](https://github.com/MostCitizen/leetcode/tree/master/0392-is-subsequence) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-22 09:13 UTC
