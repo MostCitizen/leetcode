@@ -10,19 +10,4 @@
 
 **Total Solved:** 172
 
-Last Updated: 2026-08-22 09:54 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0383-ransom-note](https://github.com/MostCitizen/leetcode/tree/master/0383-ransom-note) |
-## String
-|  |
-| ------- |
-| [0383-ransom-note](https://github.com/MostCitizen/leetcode/tree/master/0383-ransom-note) |
-## Counting
-|  |
-| ------- |
-| [0383-ransom-note](https://github.com/MostCitizen/leetcode/tree/master/0383-ransom-note) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-22 10:06 UTC
