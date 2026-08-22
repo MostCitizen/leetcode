@@ -10,11 +10,7 @@ public:
         vector<vector<string>> res;
         int index = 0;
         for(auto el : map){
-            vector<string> temp;
-            for(int i=0;i<el.second.size();i++){
-                temp.push_back(el.second[i]);
-            }
-            res.push_back(temp);
+            res.push_back(el.second);
         }
         return res;
     }
