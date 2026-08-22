@@ -10,15 +10,4 @@
 
 **Total Solved:** 172
 
-Last Updated: 2026-08-22 10:06 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0205-isomorphic-strings](https://github.com/MostCitizen/leetcode/tree/master/0205-isomorphic-strings) |
-## String
-|  |
-| ------- |
-| [0205-isomorphic-strings](https://github.com/MostCitizen/leetcode/tree/master/0205-isomorphic-strings) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-22 10:18 UTC
