@@ -11,3 +11,10 @@
 **Total Solved:** 171
 
 Last Updated: 2026-08-21 16:22 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/MostCitizen/leetcode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
+<!---LeetCode Topics End-->
