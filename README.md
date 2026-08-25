@@ -10,19 +10,4 @@
 
 **Total Solved:** 176
 
-Last Updated: 2026-08-25 07:26 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/MostCitizen/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
-## Math
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/MostCitizen/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
-## Stack
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/MostCitizen/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-25 07:47 UTC
