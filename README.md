@@ -10,23 +10,4 @@
 
 **Total Solved:** 179
 
-Last Updated: 2026-08-28 11:12 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0112-path-sum](https://github.com/MostCitizen/leetcode/tree/master/0112-path-sum) |
-## Depth-First Search
-|  |
-| ------- |
-| [0112-path-sum](https://github.com/MostCitizen/leetcode/tree/master/0112-path-sum) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0112-path-sum](https://github.com/MostCitizen/leetcode/tree/master/0112-path-sum) |
-## Binary Tree
-|  |
-| ------- |
-| [0112-path-sum](https://github.com/MostCitizen/leetcode/tree/master/0112-path-sum) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-28 12:15 UTC
