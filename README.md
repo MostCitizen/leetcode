@@ -10,23 +10,4 @@
 
 **Total Solved:** 179
 
-Last Updated: 2026-08-25 09:53 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/MostCitizen/leetcode/tree/master/0100-same-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/MostCitizen/leetcode/tree/master/0100-same-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/MostCitizen/leetcode/tree/master/0100-same-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/MostCitizen/leetcode/tree/master/0100-same-tree) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-28 10:57 UTC
