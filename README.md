@@ -4,17 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 53 | 101 | 6 | 160 |
+| C++ | 53 | 102 | 6 | 161 |
 | Python | 0 | 1 | 0 | 1 |
 | SQL | 16 | 2 | 0 | 18 |
 
-**Total Solved:** 179
+**Total Solved:** 180
 
-Last Updated: 2026-08-28 13:11 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/MostCitizen/leetcode/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-08-31 08:40 UTC
