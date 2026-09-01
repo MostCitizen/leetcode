@@ -11,19 +11,38 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        vector<int> temp;
-        while(head){
-            temp.push_back(head->val);
-            head = head->next;
+        if(!head || !head->next) return head;
+        ListNode* slow = head;
+        ListNode* fast = head->next;
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        head = new ListNode();
-        ListNode* cur = head;
+        ListNode* right = slow->next;
+        slow->next = nullptr;
+        ListNode* left = sortList(head);
+        right = sortList(right);
+        return merge(left, right);
+    }
 
-        sort(temp.begin(), temp.end());
-        for(int i=0;i<temp.size();i++){
-            cur->next = new ListNode(temp[i]);
+    ListNode* merge(ListNode* left, ListNode* right){
+        ListNode dummy(0);
+        ListNode* cur = &dummy;
+        while(left != nullptr && right != nullptr){
+            if(left->val > right->val){
+                cur->next = right;
+                right = right->next;
+            }else {
+                cur->next = left;
+                left = left->next;
+            }
             cur = cur->next;
         }
-        return head->next;
+        if(left){
+            cur->next = left;
+        }else {
+            cur->next = right;
+        }
+        return dummy.next;
     }
 };
