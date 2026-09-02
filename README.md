@@ -11,3 +11,14 @@
 **Total Solved:** 189
 
 Last Updated: 2026-09-02 12:45 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/MostCitizen/leetcode/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/MostCitizen/leetcode/tree/master/0050-powx-n) |
+<!---LeetCode Topics End-->
