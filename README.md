@@ -11,3 +11,14 @@
 **Total Solved:** 189
 
 Last Updated: 2026-09-02 12:29 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/MostCitizen/leetcode/tree/master/0066-plus-one) |
+## Math
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/MostCitizen/leetcode/tree/master/0066-plus-one) |
+<!---LeetCode Topics End-->
