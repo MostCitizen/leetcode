@@ -10,15 +10,4 @@
 
 **Total Solved:** 190
 
-Last Updated: 2026-09-02 13:10 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0050-powx-n](https://github.com/MostCitizen/leetcode/tree/master/0050-powx-n) |
-## Recursion
-|  |
-| ------- |
-| [0050-powx-n](https://github.com/MostCitizen/leetcode/tree/master/0050-powx-n) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-02 13:13 UTC
