@@ -4,21 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 55 | 114 | 7 | 176 |
+| C++ | 56 | 114 | 7 | 177 |
 | Python | 0 | 1 | 0 | 1 |
 | SQL | 16 | 2 | 0 | 18 |
 
-**Total Solved:** 195
+**Total Solved:** 196
 
-Last Updated: 2026-09-03 10:55 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3903-smallest-stable-index-i](https://github.com/MostCitizen/leetcode/tree/master/3903-smallest-stable-index-i) |
-## Prefix Sum
-|  |
-| ------- |
-| [3903-smallest-stable-index-i](https://github.com/MostCitizen/leetcode/tree/master/3903-smallest-stable-index-i) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-04 14:23 UTC
