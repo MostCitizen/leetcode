@@ -11,3 +11,14 @@
 **Total Solved:** 196
 
 Last Updated: 2026-09-04 14:23 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [3904-smallest-stable-index-ii](https://github.com/MostCitizen/leetcode/tree/master/3904-smallest-stable-index-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [3904-smallest-stable-index-ii](https://github.com/MostCitizen/leetcode/tree/master/3904-smallest-stable-index-ii) |
+<!---LeetCode Topics End-->
