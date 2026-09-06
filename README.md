@@ -11,3 +11,10 @@
 **Total Solved:** 200
 
 Last Updated: 2026-09-06 10:31 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [1193-monthly-transactions-i](https://github.com/MostCitizen/leetcode/tree/master/1193-monthly-transactions-i) |
+<!---LeetCode Topics End-->
