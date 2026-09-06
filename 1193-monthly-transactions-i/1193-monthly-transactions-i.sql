@@ -1,10 +1,12 @@
 /* Write your T-SQL query statement below */
-select 
-    FORMAT(t.trans_date, 'yyyy-MM') as month, 
-    t.country, 
-    count(t.trans_date) as trans_count, 
-    (sum(case when t.state = 'approved' then 1 else 0 end)) as approved_count,
-    sum(t.amount) as trans_total_amount,
-    (sum(case when t.state = 'approved' then t.amount else 0 end)) as approved_total_amount
-from Transactions t
-group by FORMAT(t.trans_date, 'yyyy-MM'), t.country
+SELECT
+    CONVERT(char(7), trans_date, 120) AS month,
+    country,
+    COUNT(*) AS trans_count,
+    SUM(CASE WHEN state = 'approved' THEN 1 ELSE 0 END) AS approved_count,
+    SUM(amount) AS trans_total_amount,
+    SUM(CASE WHEN state = 'approved' THEN amount ELSE 0 END) AS approved_total_amount
+FROM Transactions
+GROUP BY
+    CONVERT(char(7), trans_date, 120),
+    country;
