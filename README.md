@@ -11,3 +11,22 @@
 **Total Solved:** 210
 
 Last Updated: 2026-09-09 07:15 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/MostCitizen/leetcode/tree/master/0146-lru-cache) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/MostCitizen/leetcode/tree/master/0146-lru-cache) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/MostCitizen/leetcode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/MostCitizen/leetcode/tree/master/0146-lru-cache) |
+<!---LeetCode Topics End-->
