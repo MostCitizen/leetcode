@@ -12,33 +12,22 @@
 class Solution {
 public:
     int averageOfSubtree(TreeNode* root) {
-        queue<TreeNode*> q;
-        q.push(root);
         int res = 0;
-        while(!q.empty()){
-            int size = q.size();
-            for(int i=0;i<size;i++){
-                TreeNode* cur = q.front();
-                q.pop();
-                int count = 0;
-                int sum = 0;
-                find(cur, count, sum);
-                if(cur->val == sum / count) res++;
-
-                if(cur->left) q.push(cur->left);
-                if(cur->right) q.push(cur->right);
-            }
-        }
+        dfs(root, res);
         return res;
     }
 
-    void find(TreeNode* node, int& count, int& sum){
-        if(!node) return;
-        sum += node->val;
-        count++;
-        find(node->left, count, sum);
-        find(node->right, count, sum);
-        return;
+    pair<int, int> dfs(TreeNode* node, int& res){
+        if(!node) return {0, 0};
 
+        pair<int, int> left = dfs(node->left, res);
+        pair<int, int> right = dfs(node->right, res);
+        
+        int sum = left.first + right.first + node->val;
+        int count = left.second + right.second + 1;
+        
+        if(node->val == sum / count) res++;
+
+        return {sum, count};
     }
 };
