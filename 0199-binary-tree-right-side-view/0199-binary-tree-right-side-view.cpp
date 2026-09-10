@@ -11,22 +11,20 @@
  */
 class Solution {
 public:
-    void temp(TreeNode* node, unordered_map<int, int>& mp, int depth){
-        if(!node) return;
-        cout << node->val << endl;
-        if(mp.find(depth) == mp.end()) 
-            mp[depth] = node->val;
-        temp(node->right, mp, depth+1);
-        temp(node->left, mp, depth+1);
-    }
-
     vector<int> rightSideView(TreeNode* root) {
         vector<int> res;
         if(!root) return res;
-        unordered_map<int, int> mp;
-        temp(root, mp, 0);
-        for(int i=0;i<mp.size();i++){
-            res.push_back(mp[i]);
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()){
+            int n = q.size();
+            for(int i=0;i<n;i++){
+                TreeNode* cur = q.front();
+                q.pop();
+                if(i == 0) res.push_back(cur->val);
+                if(cur->right) q.push(cur->right);
+                if(cur->left) q.push(cur->left);
+            }
         }
         return res;
     }
