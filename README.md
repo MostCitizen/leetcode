@@ -11,3 +11,18 @@
 **Total Solved:** 212
 
 Last Updated: 2026-09-09 10:56 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/MostCitizen/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+## Depth-First Search
+|  |
+| ------- |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/MostCitizen/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+## Binary Tree
+|  |
+| ------- |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/MostCitizen/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+<!---LeetCode Topics End-->
