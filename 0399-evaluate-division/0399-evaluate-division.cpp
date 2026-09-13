@@ -1,36 +1,32 @@
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
-        int n = queries.size();
-        vector<double> res(n);
-        unordered_map<string, vector<pair<string, double>>> graph;
-
-        for(int i=0;i<equations.size();i++){
-            graph[equations[i][0]].push_back({equations[i][1], values[i]});
-            graph[equations[i][1]].push_back({equations[i][0], 1/values[i]});
-        }
-
+        unordered_map<string, vector<pair<string, double>>> map;
+        int n = equations.size();
         for(int i=0;i<n;i++){
+            string a = equations[i][0];
+            string b = equations[i][1];
+            map[a].push_back({b, values[i]});
+            map[b].push_back({a, 1/values[i]});
+        }
+        vector<double> res;
+        for(int i=0;i<queries.size();i++){
             set<string> s;
-            double c = cal(graph, queries[i][0], queries[i][1], 1, s);
-            res[i] = c;
+            res.push_back(cal(map, queries[i][0], queries[i][1], s, 1));
         }
         return res;
     }
-    double cal(unordered_map<string, vector<pair<string, double>>> graph, string s, string findS, double c, set<string> se){
-        if(!graph.contains(s)) return -1;
-        else if(s == findS) return 1;
-        vector<pair<string, double>> temp = graph[s];
-        se.insert(s);
-        for(int i=0;i<temp.size();i++){
-            if(se.contains(temp[i].first)) continue;
-            se.insert(temp[i].first);
-            if(temp[i].first == findS) {
-                return c * temp[i].second;
-            }else {
-                double res = cal(graph, temp[i].first, findS, c * temp[i].second, se);
-                if(res != -1) return res;
-            }
+
+    double cal(unordered_map<string, vector<pair<string, double>>> map, string cur, string find, set<string> s, double c){
+        if(!map.contains(cur) || !map.contains(find)) return -1;
+        else if(cur == find) return 1;
+        s.insert(cur);
+        for(auto [next, cost] : map[cur]){
+            if(s.contains(next)) continue;
+            else if(next == find) return c * cost;
+            s.insert(next);
+            double val = cal(map, next, find, s, c);
+            if(val != -1) return val * cost;
         }
         return -1;
     }
