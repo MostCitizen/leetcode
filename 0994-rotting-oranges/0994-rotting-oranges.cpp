@@ -1,42 +1,44 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int m = grid.size();
-        int n = grid[0].size();
-        queue<pair<int, int>> q;
-        int res = 0;
-        int fresh = 0;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j] == 2){
+        int total = 0;
+        queue<pair<int,int>> q;
+        int row = grid.size();
+        int col = grid[0].size();
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                if(grid[i][j] == 1){
+                    total++;
+                }else if(grid[i][j] == 2){
                     q.push({i, j});
-                }else if(grid[i][j] == 1) {
-                    fresh++;
                 }
             }
         }
+        int count = 0;
         while(!q.empty()){
             int size = q.size();
-            bool rotted = false;
-
-            while (size--) {
-                auto [r, c] = q.front();
+            int dr[] = {1, -1, 0, 0};
+            int dc[] = {0, 0, 1, -1};
+            bool isChange = false;
+            while(size--){
+                auto [r,c] = q.front();
                 q.pop();
-                int dr[4] = {-1, 1, 0, 0};
-                int dc[4] = {0, 0, -1, 1};
-                for (int d = 0; d < 4; d++) {
-                    int nr = r + dr[d];
-                    int nc = c + dc[d];
-                    if(nr < 0 || nc < 0 || nr >= m || nc >= n
-                     || grid[nr][nc] != 1) continue;
+                for(int i=0;i<4;i++){
+                    int nr = r + dr[i];
+                    int nc = c + dc[i];
+                    if(nr < 0 || nr >= row || nc < 0 || nc >= col){
+                        continue;
+                    }else if(grid[nr][nc] != 1){
+                        continue;
+                    }
+                    total--;
+                    isChange = true;
                     grid[nr][nc] = 2;
-                    fresh--;
                     q.push({nr, nc});
-                    rotted = true;
                 }
             }
-            if(rotted) res++;
+            if(isChange) count++;
         }
-        return fresh != 0 ? -1 : res;
+        return total != 0 ? -1 : count;
     }
 };
