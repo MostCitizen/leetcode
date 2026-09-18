@@ -11,3 +11,22 @@
 **Total Solved:** 221
 
 Last Updated: 2026-09-17 08:17 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## String
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## Greedy
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## Sorting
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+<!---LeetCode Topics End-->
