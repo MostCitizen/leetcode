@@ -4,29 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 60 | 133 | 8 | 201 |
+| C++ | 60 | 133 | 9 | 202 |
 | Python | 0 | 1 | 0 | 1 |
 | SQL | 16 | 3 | 0 | 19 |
 
-**Total Solved:** 221
+**Total Solved:** 222
 
-Last Updated: 2026-09-17 08:17 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
-## String
-|  |
-| ------- |
-| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
-## Greedy
-|  |
-| ------- |
-| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
-## Sorting
-|  |
-| ------- |
-| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MostCitizen/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-18 08:51 UTC
