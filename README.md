@@ -11,3 +11,14 @@
 **Total Solved:** 223
 
 Last Updated: 2026-09-19 09:44 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/MostCitizen/leetcode/tree/master/3498-reverse-degree-of-a-string) |
+## Simulation
+|  |
+| ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/MostCitizen/leetcode/tree/master/3498-reverse-degree-of-a-string) |
+<!---LeetCode Topics End-->
