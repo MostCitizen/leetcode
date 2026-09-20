@@ -11,3 +11,14 @@
 **Total Solved:** 226
 
 Last Updated: 2026-09-20 07:21 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0875-koko-eating-bananas](https://github.com/MostCitizen/leetcode/tree/master/0875-koko-eating-bananas) |
+## Binary Search
+|  |
+| ------- |
+| [0875-koko-eating-bananas](https://github.com/MostCitizen/leetcode/tree/master/0875-koko-eating-bananas) |
+<!---LeetCode Topics End-->
