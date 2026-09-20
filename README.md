@@ -10,15 +10,4 @@
 
 **Total Solved:** 226
 
-Last Updated: 2026-09-20 06:59 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0162-find-peak-element](https://github.com/MostCitizen/leetcode/tree/master/0162-find-peak-element) |
-## Binary Search
-|  |
-| ------- |
-| [0162-find-peak-element](https://github.com/MostCitizen/leetcode/tree/master/0162-find-peak-element) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-20 07:21 UTC
