@@ -11,3 +11,14 @@
 **Total Solved:** 224
 
 Last Updated: 2026-09-20 06:12 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Binary Search
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/MostCitizen/leetcode/tree/master/0374-guess-number-higher-or-lower) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/MostCitizen/leetcode/tree/master/0374-guess-number-higher-or-lower) |
+<!---LeetCode Topics End-->
