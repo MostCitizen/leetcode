@@ -10,19 +10,4 @@
 
 **Total Solved:** 232
 
-Last Updated: 2026-09-22 07:45 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0062-unique-paths](https://github.com/MostCitizen/leetcode/tree/master/0062-unique-paths) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0062-unique-paths](https://github.com/MostCitizen/leetcode/tree/master/0062-unique-paths) |
-## Combinatorics
-|  |
-| ------- |
-| [0062-unique-paths](https://github.com/MostCitizen/leetcode/tree/master/0062-unique-paths) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-22 08:16 UTC
