@@ -4,17 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 65 | 140 | 9 | 214 |
-| Python | 0 | 1 | 0 | 1 |
+| C++ | 64 | 141 | 9 | 214 |
+| Python | 1 | 1 | 0 | 2 |
 | SQL | 16 | 3 | 0 | 19 |
 
-**Total Solved:** 234
+**Total Solved:** 235
 
-Last Updated: 2026-09-24 10:32 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Dynamic Programming
-|  |
-| ------- |
-| [0790-domino-and-tromino-tiling](https://github.com/MostCitizen/leetcode/tree/master/0790-domino-and-tromino-tiling) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-24 11:35 UTC
