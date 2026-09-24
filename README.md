@@ -11,3 +11,10 @@
 **Total Solved:** 234
 
 Last Updated: 2026-09-24 10:32 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Dynamic Programming
+|  |
+| ------- |
+| [0790-domino-and-tromino-tiling](https://github.com/MostCitizen/leetcode/tree/master/0790-domino-and-tromino-tiling) |
+<!---LeetCode Topics End-->
