@@ -10,15 +10,4 @@
 
 **Total Solved:** 238
 
-Last Updated: 2026-09-28 07:21 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0025-reverse-nodes-in-k-group](https://github.com/MostCitizen/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
-## Recursion
-|  |
-| ------- |
-| [0025-reverse-nodes-in-k-group](https://github.com/MostCitizen/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-09-28 09:56 UTC
