@@ -1,23 +1,18 @@
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
-        if(n == 1) return {"()"};
-        vector<string> result;
-        string paren = "";
-        temp(result, paren, 0, 0, n);
-        return result;
+        vector<string> res;
+        back(res, n, 0, 0, "");
+        return res;
     }
 
-    void temp(vector<string>&result, string paren, int open, int close, int n){
-        if(open == close && open + close  == n * 2){
-            result.push_back(paren);
+    void back(vector<string>& res, int n, int openC, int closeC, string s){
+        if(openC < closeC || openC > n || closeC > n) return;
+        else if(closeC == n) {
+            res.push_back(s);
             return;
         }
-        if(open < n){
-            temp(result, paren + "(", open+1, close, n);
-        }
-        if(close < open){
-            temp(result, paren + ")", open, close+1, n);
-        }
+        back(res, n, openC+1, closeC, s + "(");
+        back(res, n, openC, closeC+1, s + ")");
     }
 };
