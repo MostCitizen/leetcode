@@ -11,3 +11,14 @@
 **Total Solved:** 239
 
 Last Updated: 2026-10-02 08:07 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/MostCitizen/leetcode/tree/master/0027-remove-element) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/MostCitizen/leetcode/tree/master/0027-remove-element) |
+<!---LeetCode Topics End-->
