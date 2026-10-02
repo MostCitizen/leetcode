@@ -11,3 +11,18 @@
 **Total Solved:** 239
 
 Last Updated: 2026-10-02 10:32 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/MostCitizen/leetcode/tree/master/0055-jump-game) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/MostCitizen/leetcode/tree/master/0055-jump-game) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/MostCitizen/leetcode/tree/master/0055-jump-game) |
+<!---LeetCode Topics End-->
