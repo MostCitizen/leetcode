@@ -1,15 +1,21 @@
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        vector<int> temp;
-        for(int i=0;i<nums.size();i++){
-            if(nums[i] == val){
-                temp.push_back(i);
+        int n = nums.size();
+        int left = 0, right = n-1;
+        int remove = 0;
+        while(left <= right){
+            if(nums[left] == val){
+                remove++;
+                while(right > left && nums[right] == val){
+                    right--;
+                    remove++;
+                }
+                nums[left] = nums[right];
+                right--;
             }
+            left++;
         }
-        for(int i=0;i<temp.size();i++){
-            nums.erase(nums.begin() + temp[i] - i);
-        }
-        return nums.size();
+        return n - remove;
     }
 };
