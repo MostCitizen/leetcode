@@ -4,21 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 65 | 145 | 9 | 219 |
+| C++ | 65 | 146 | 9 | 220 |
 | Python | 1 | 1 | 0 | 2 |
 | SQL | 16 | 3 | 0 | 19 |
 
-**Total Solved:** 240
+**Total Solved:** 241
 
-Last Updated: 2026-10-03 11:52 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0238-product-of-array-except-self](https://github.com/MostCitizen/leetcode/tree/master/0238-product-of-array-except-self) |
-## Prefix Sum
-|  |
-| ------- |
-| [0238-product-of-array-except-self](https://github.com/MostCitizen/leetcode/tree/master/0238-product-of-array-except-self) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-03 11:59 UTC
