@@ -3,28 +3,27 @@ public:
     string reverseWords(string s) {
         int n = s.size();
         if(n == 1) return s;
-        reverse(s.begin(), s.end());
-        s += " ";
-        n++;
         int index = 0;
-        int start = 0;
         for(int i=0;i<n;i++){
-            s[index] = s[i];
             if(s[i] != ' ') {
-                index++;
+                if(index>0){
+                    s[index++] = ' '; 
+                }
+                while(i < n && s[i] != ' '){
+                    s[index++] = s[i++];
+                }
             }
-            else if(index > 0 && s[index-1] != ' '){
-                reverse(s.begin() + start, s.begin() + index);
-                cout << start << "  "<<index << endl;
-                s[index++] = ' ';
-                start = index;
+        }
+        reverse(s.begin(), s.begin() + index);
+        int start = 0;
+        for(int i=0;i<=index;i++){
+            if(i == index || s[i] == ' '){
+                reverse(s.begin() + start, s.begin() + i);
+                start = i + 1;
             }
-            
         }
-        while(s[index-1] == ' '){
-            index--;
-        }
-        s = s.substr(0, index);
+
+        s.resize(index);
         return s;
     }
 };
