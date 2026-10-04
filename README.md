@@ -10,15 +10,4 @@
 
 **Total Solved:** 242
 
-Last Updated: 2026-10-04 06:14 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0134-gas-station](https://github.com/MostCitizen/leetcode/tree/master/0134-gas-station) |
-## Greedy
-|  |
-| ------- |
-| [0134-gas-station](https://github.com/MostCitizen/leetcode/tree/master/0134-gas-station) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-04 07:18 UTC
