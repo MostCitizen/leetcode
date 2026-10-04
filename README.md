@@ -10,15 +10,4 @@
 
 **Total Solved:** 243
 
-Last Updated: 2026-10-04 09:10 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0151-reverse-words-in-a-string](https://github.com/MostCitizen/leetcode/tree/master/0151-reverse-words-in-a-string) |
-## String
-|  |
-| ------- |
-| [0151-reverse-words-in-a-string](https://github.com/MostCitizen/leetcode/tree/master/0151-reverse-words-in-a-string) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-04 09:15 UTC
