@@ -1,18 +1,13 @@
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        int rSize = ransomNote.size(), mSize = magazine.size();
-        if(rSize > mSize) return false;
-        sort(ransomNote.begin(), ransomNote.end());
-        sort(magazine.begin(), magazine.end());
-        int index = 0;
-        for(int i=0;i<mSize;i++){
-            if(ransomNote[index] == magazine[i]){
-                index++;
-            }
-            if(index == rSize) break;;
+        int have[26] = {0,};
+        for(char c : magazine){
+            have[c-'a']++;
         }
-
-        return index == rSize;
+        for(char c : ransomNote){
+            if(--have[c-'a'] < 0) return false;
+        }
+        return true;
     }
 };
