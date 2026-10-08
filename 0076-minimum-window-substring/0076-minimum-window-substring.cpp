@@ -1,35 +1,32 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int sSize = s.size();
-        int tSize = t.size();
-        if(sSize < tSize) return "";
-        unordered_map<char, int> mp;
-        int total = tSize;
-        for(char c : t){
-            mp[c]++;
+        int m = s.size();
+        int n = t.size();
+        if(m < n) return "";
+        unordered_map<char, int> map;
+        for(int i=0;i<n;i++){
+            map[t[i]]++;
         }
-        int start = 0;
-        int startEnd[2] = {0, INT_MAX};
-
-        for(int i=0;i<sSize;i++){
-            if(mp[s[i]]-- > 0) total--;
-
-            if(total == 0){
-                while(start < sSize && mp[s[start]] != 0){
-                    mp[s[start]]++;
-                    start++;
+        int count = 0;
+        int left = 0;
+        int start = 0, end = INT_MAX;
+        for(int right=0;right<m;right++){
+            if(map[s[right]]-- > 0){
+                count++;
+            }
+            if(count == n){
+                while(left <= right && map[s[left]] != 0){
+                    map[s[left++]]++;
                 }
-                cout << i << " " << start << endl;
-                if(i - start < startEnd[1] - startEnd[0]){
-                    startEnd[0] = start;
-                    startEnd[1] = i;
+                if(right - left < end - start){
+                    start = left;
+                    end = right;
                 }
-                total++;
-                mp[s[start]]++;
-                start++;
+                count--;
+                map[s[left++]]++;
             }
         }
-        return startEnd[1] > sSize ? "" : s.substr(startEnd[0], startEnd[1] - startEnd[0] + 1);
+        return end == INT_MAX ? "" : s.substr(start, end - start + 1);
     }
 };
