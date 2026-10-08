@@ -10,19 +10,4 @@
 
 **Total Solved:** 245
 
-Last Updated: 2026-10-08 08:15 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/MostCitizen/leetcode/tree/master/0036-valid-sudoku) |
-## Hash Table
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/MostCitizen/leetcode/tree/master/0036-valid-sudoku) |
-## Matrix
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/MostCitizen/leetcode/tree/master/0036-valid-sudoku) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-08 08:40 UTC
