@@ -11,3 +11,18 @@
 **Total Solved:** 244
 
 Last Updated: 2026-10-07 11:46 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/MostCitizen/leetcode/tree/master/1021-remove-outermost-parentheses) |
+## Stack
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/MostCitizen/leetcode/tree/master/1021-remove-outermost-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/MostCitizen/leetcode/tree/master/1021-remove-outermost-parentheses) |
+<!---LeetCode Topics End-->
