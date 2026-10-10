@@ -11,3 +11,14 @@
 **Total Solved:** 246
 
 Last Updated: 2026-10-10 11:48 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/MostCitizen/leetcode/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/MostCitizen/leetcode/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
