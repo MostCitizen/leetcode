@@ -2,21 +2,16 @@ class Solution {
 public:
     bool isHappy(int n) {
         set<int> s;
-
         while(n != 1){
-            if(s.contains(n)) break;
+            if(s.contains(n)) return false;
+            int sum = 0;
             s.insert(n);
-            n = cal(n);
+            while(n){
+                sum += pow(n%10, 2);
+                n /= 10;
+            }
+            n = sum;
         }
-        return n == 1;
-    }
-
-    int cal(int n){
-        int sum = 0;
-        while(n){
-            sum += pow(n%10, 2);
-            n = n/10;
-        }
-        return sum;
+        return true;
     }
 };
