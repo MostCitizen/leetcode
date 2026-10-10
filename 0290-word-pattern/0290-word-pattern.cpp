@@ -1,35 +1,26 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
-        unordered_map<char, string> charMap;
-        unordered_map<string,char> wordMap;
-        vector<string> word;
-        string temp = "";
-        for(char c : s){
-            if(c == ' '){
-                if(temp != "")
-                    word.push_back(temp);
-                temp = "";
+        unordered_map<char, string> map;
+        unordered_map<string, char> patternMap;
+        int index = 0;
+        int len = s.size();
+        for(int i=0;i<pattern.size();i++){
+            if(index >= len) return false;
+            string temp = "";
+            while(index < len && s[index] != ' '){
+                temp += s[index++];
             }
-            else temp += c;
+            index++;
+            if(map.contains(pattern[i]) && map[pattern[i]] != temp) {
+                return false;
+            }
+            if(patternMap.contains(temp) && patternMap[temp] != pattern[i]) {
+                return false;
+            }
+            map[pattern[i]] = temp;
+            patternMap[temp] = pattern[i];
         }
-        if(temp != "")
-            word.push_back(temp);
-        if(pattern.size() != word.size()) return false;
-
-        for(int i=0;i<word.size();i++){
-            char c = pattern[i];
-            if(charMap.count(c) != 0){
-                if(charMap[c] != word[i]) return false;
-            }
-            else {
-                if(wordMap.count(word[i]) != 0){
-                    if(wordMap[word[i]] != c) return false;
-                }
-                wordMap[word[i]] = c;
-                charMap[c] = word[i];
-            }
-        }
-        return true;
+        return index >= len;
     }
 };
