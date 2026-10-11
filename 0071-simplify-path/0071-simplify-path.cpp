@@ -2,34 +2,32 @@ class Solution {
 public:
     string simplifyPath(string path) {
         stack<string> st;
-        string temp = "";
-        for(char c : path){
-            if(c == '/' && temp != ""){
-                if(temp == ".."){
-                    if(!st.empty())
-                        st.pop();
-                }
-                else if(temp != "."){
-                    st.push(temp);
-                }
-                temp = "";
+        int n = path.size();
+        for(int i=0;i<n;i++){
+            if(path[i] == '/') continue;
+            string temp = "";
+            while(i < n && path[i] != '/'){
+                temp += path[i++];
             }
-            else if(c != '/') temp += c;
+            if(temp == ".."){
+                if(!st.empty())
+                    st.pop();
+            }else if(temp == ".") {
+                continue;
+            }else {
+                st.push(temp);
+            }
         }
-        if(temp == ".."){
-            if(!st.empty())
-                st.pop();
-        }
-        else if(temp != "" && temp != "."){
-            st.push(temp);
-        }
-        string result = "";
+        string res = "";
         while(!st.empty()){
-            string s = st.top();
+            res = st.top() + "/" + res;
             st.pop();
-            result = ("/" + s) + result;
         }
-        if(result == "") result = "/";
-        return result;
+        if(res != "") {
+            res.pop_back();
+            return "/" + res;
+        }else {
+            return "/";
+        }
     }
 };
