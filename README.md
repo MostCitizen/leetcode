@@ -10,19 +10,4 @@
 
 **Total Solved:** 248
 
-Last Updated: 2026-10-12 11:37 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/MostCitizen/leetcode/tree/master/0002-add-two-numbers) |
-## Math
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/MostCitizen/leetcode/tree/master/0002-add-two-numbers) |
-## Recursion
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/MostCitizen/leetcode/tree/master/0002-add-two-numbers) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-12 12:11 UTC
