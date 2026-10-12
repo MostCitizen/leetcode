@@ -1,28 +1,27 @@
 class MinStack {
 public:
-    vector<vector<int>> st;
+    deque<pair<int, int>> q;
+    int m = INT_MAX;
     MinStack() {
         
     }
     
     void push(int value) {
-        int minVal = getMin();
-        if(st.size() == 0 || minVal > value){
-            minVal = value;
-        }
-        st.push_back({value, minVal});
+        m = min(value, m);
+        q.push_back({value, m});
     }
     
     void pop() {
-        st.pop_back();
+        q.pop_back();
+        m = !q.empty() ? q.back().second : INT_MAX;
     }
     
     int top() {
-        return st.size() == 0 ? -1 : st.back()[0];
+        return q.back().first;
     }
     
     int getMin() {
-        return st.size() == 0 ? -1 : st.back()[1];
+        return m;
     }
 };
 
