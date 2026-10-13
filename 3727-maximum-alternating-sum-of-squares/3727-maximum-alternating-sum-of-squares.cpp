@@ -1,23 +1,19 @@
 class Solution {
 public:
     long long maxAlternatingSum(vector<int>& nums) {
-        priority_queue<int> maximum;
-        priority_queue<int, vector<int>, greater<int>> minimum;
         int n = nums.size();
-        for(int i=0;i<n;i++){
-            int val = abs(nums[i]);
-            maximum.push(val);
-            minimum.push(val);
-        }
+        sort(nums.begin(), nums.end(), [](int a, int b){
+            return abs(a) < abs(b);
+        });
+        int left = 0, right = n-1;
         long long res = 0;
-        for(int i=0;i<n/2;i++){
-            int num1 = maximum.top(); maximum.pop();
-            int num2 = minimum.top(); minimum.pop();
-            res += pow(num1, 2) - pow(num2, 2);
+        while(left < right){
+            int l = nums[left++];
+            int r = nums[right--];
+            res += r*r - l*l;
         }
         if(n % 2 == 1){
-            int num1 = maximum.top(); maximum.pop();
-            res += pow(num1, 2);
+            res += (nums[right] * nums[right]);
         }
         return res;
     }
