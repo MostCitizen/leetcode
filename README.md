@@ -10,11 +10,4 @@
 
 **Total Solved:** 249
 
-Last Updated: 2026-10-13 04:41 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0092-reverse-linked-list-ii](https://github.com/MostCitizen/leetcode/tree/master/0092-reverse-linked-list-ii) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-13 07:08 UTC
