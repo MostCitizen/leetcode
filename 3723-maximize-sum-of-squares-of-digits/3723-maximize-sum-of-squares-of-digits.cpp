@@ -7,7 +7,7 @@ public:
             for(int j=9;j>=0;j--){
                 if(sum - j >= 0){
                     sum -= j;
-                    res += to_string(j);
+                    res += (j + '0');
                     break;
                 }
             }
