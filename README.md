@@ -10,15 +10,4 @@
 
 **Total Solved:** 251
 
-Last Updated: 2026-10-14 09:41 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [3723-maximize-sum-of-squares-of-digits](https://github.com/MostCitizen/leetcode/tree/master/3723-maximize-sum-of-squares-of-digits) |
-## Greedy
-|  |
-| ------- |
-| [3723-maximize-sum-of-squares-of-digits](https://github.com/MostCitizen/leetcode/tree/master/3723-maximize-sum-of-squares-of-digits) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-14 09:44 UTC
