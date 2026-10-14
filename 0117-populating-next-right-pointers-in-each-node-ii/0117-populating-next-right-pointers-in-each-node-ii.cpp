@@ -23,13 +23,15 @@ public:
         queue<Node*> q;
         q.push(root);
         while(!q.empty()){
-            int total = q.size();
-            for(int i=0;i<total;i++){
-                Node* current = q.front();
+            int size = q.size();
+            Node* prev = nullptr;
+            for(int i=0;i<size;i++){
+                Node* cur = q.front();
                 q.pop();
-                if(current->left) q.push(current->left);
-                if(current->right) q.push(current->right);
-                current->next = (i+1 < total) ? q.front() : NULL;
+                if(prev) prev->next = cur;
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+                prev = cur;
             }
         }
         return root;
