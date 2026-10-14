@@ -15,19 +15,20 @@ public:
         queue<int> q(preorder.begin(), preorder.end());
         return build(q, inorder);
     }
-    TreeNode* build(queue<int>& q, vector<int> inorder){
-        if(inorder.empty()) return nullptr;
+    TreeNode* build(queue<int>& q, vector<int>& inorder){
+        if(inorder.size() == 0) return nullptr;
         int val = q.front();
         q.pop();
-        auto it = find(inorder.begin(), inorder.end(), val);
-        int index = it - inorder.begin();
-
         TreeNode* node = new TreeNode(val);
-        vector<int> left(inorder.begin(), inorder.begin() + index);
-        vector<int> right(inorder.begin() + index + 1, inorder.end());
 
+        auto it = find(inorder.begin(), inorder.end(), val);
+
+        vector<int> left(inorder.begin(), it);
+        vector<int> right(it + 1, inorder.end());
+        
         node->left = build(q, left);
         node->right = build(q, right);
         return node;
+
     }
 };
