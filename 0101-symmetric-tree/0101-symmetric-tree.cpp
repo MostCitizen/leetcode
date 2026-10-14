@@ -11,15 +11,15 @@
  */
 class Solution {
 public:
-    bool temp(TreeNode* left, TreeNode* right){
-        if(!left && !right) return true;
-        if(!left || !right) return false;
-        if(left->val != right->val) return false;
-        return temp(left->left, right->right) && temp(left->right, right->left);
-    }
-
     bool isSymmetric(TreeNode* root) {
         if(!root) return false;
-        return temp(root->left, root->right);
+        return isSymmetric(root->left, root->right);
+    }
+
+    bool isSymmetric(TreeNode* left, TreeNode* right){
+        if(!left && !right) return true;
+        else if(!left || !right) return false;
+        else if(left->val != right->val) return false;
+        return isSymmetric(left->left, right->right) && isSymmetric(right->left, left->right);
     }
 };
