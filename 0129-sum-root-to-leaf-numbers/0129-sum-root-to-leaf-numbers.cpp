@@ -12,23 +12,19 @@
 class Solution {
 public:
     int sumNumbers(TreeNode* root) {
-        vector<int> v;
-        roop(root, v, 0);
-        int sum =0;
-        for(int i=0;i<v.size();i++){
-            sum += v[i];
-        }
-        return sum;
+        return sumNode(root, 0);
     }
 
-    void roop(TreeNode* root, vector<int>& v, int sum){
-        if(!root) return;
-        sum = sum * 10 + root->val;
-        if(root && !root->left && !root->right){
-            v.push_back(sum);
-            return;
+    int sumNode(TreeNode* node, int sum){
+        if(!node) return sum;
+        sum = sum * 10 + node->val;
+        int left = 0, right = 0;
+        if(node->left){
+            left = sumNode(node->left, sum);
         }
-        roop(root->left, v, sum);
-        roop(root->right, v, sum);
+        if(node->right){
+            right = sumNode(node->right, sum);
+        }
+        return left + right == 0 ? sum : left + right;
     }
 };
