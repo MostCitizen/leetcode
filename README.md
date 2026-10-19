@@ -11,3 +11,18 @@
 **Total Solved:** 251
 
 Last Updated: 2026-10-16 11:03 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2089-find-target-indices-after-sorting-array](https://github.com/MostCitizen/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
+## Binary Search
+|  |
+| ------- |
+| [2089-find-target-indices-after-sorting-array](https://github.com/MostCitizen/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
+## Sorting
+|  |
+| ------- |
+| [2089-find-target-indices-after-sorting-array](https://github.com/MostCitizen/leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
+<!---LeetCode Topics End-->
