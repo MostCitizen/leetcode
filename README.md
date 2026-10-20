@@ -10,23 +10,4 @@
 
 **Total Solved:** 252
 
-Last Updated: 2026-10-20 12:15 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-## Binary Search Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/MostCitizen/leetcode/tree/master/0098-validate-binary-search-tree) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-20 12:32 UTC
