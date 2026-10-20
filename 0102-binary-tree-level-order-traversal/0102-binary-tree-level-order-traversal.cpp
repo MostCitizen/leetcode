@@ -11,20 +11,22 @@
  */
 class Solution {
 public:
-    void temp(TreeNode* node, unordered_map<int, vector<int>>& mp, int depth){
-        if(!node) return;
-        mp[depth].push_back(node->val);
-        temp(node->left, mp, depth+1);
-        temp(node->right, mp, depth+1);
-    }
-
     vector<vector<int>> levelOrder(TreeNode* root) {
+        if(!root) return {};
         vector<vector<int>> res;
-        if(!root) return res;
-        unordered_map<int, vector<int>> mp;
-        temp(root, mp, 0);
-        for(int i=0;i<mp.size();i++){
-            res.push_back(mp[i]);
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()){
+            int size = q.size();
+            vector<int> v;
+            for(int i=0;i<size;i++){
+                TreeNode* cur = q.front();
+                q.pop();
+                v.push_back(cur->val);
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+            }
+            res.push_back(v);
         }
         return res;
     }
