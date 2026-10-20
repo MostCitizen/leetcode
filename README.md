@@ -10,19 +10,4 @@
 
 **Total Solved:** 252
 
-Last Updated: 2026-10-20 11:07 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MostCitizen/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MostCitizen/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
-## Binary Tree
-|  |
-| ------- |
-| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MostCitizen/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-20 11:48 UTC
