@@ -12,17 +12,17 @@
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
-        vector<int> v;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode* cur = q.front();
-            q.pop();
-            v.push_back(cur->val);
-            if(cur->left) q.push(cur->left);
-            if(cur->right) q.push(cur->right);
-        }
-        sort(v.begin(), v.end());
-        return v[k-1];
+        int count = 0;
+        return find(root, k, count);
+    }
+    int find(TreeNode* root, int k, int& count){
+        if(!root) return -1;
+        int left = find(root->left, k, count);
+        count++;
+        if(count == k) return root->val;
+        int right = find(root->right,k, count);
+        if(left != -1) return left;
+        else if(right != -1) return right;
+        return -1;
     }
 };
