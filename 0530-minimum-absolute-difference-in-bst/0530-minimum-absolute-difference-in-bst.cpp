@@ -12,22 +12,24 @@
 class Solution {
 public:
     int getMinimumDifference(TreeNode* root) {
-        vector<int> v;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode* cur = q.front();
-            q.pop();
-            if(!cur) continue;
-            v.push_back(cur->val);
-            q.push(cur->left);
-            q.push(cur->right);
-        }
-        sort(v.begin(), v.end());
+        if(!root) return INT_MAX;
         int m = INT_MAX;
-        for(int i=0;i<v.size()-1;i++){
-            m = min(m, abs(v[i] - v[i+1]));
+        int dif = root->val;
+        TreeNode* node = root->left;
+        if(node){
+            while(node->right){
+                node = node->right;
+            }
+            m = min(m, abs(dif - node->val));
         }
+        node = root->right;
+        if(node){
+            while(node->left){
+                node = node->left;
+            }
+            m = min(m, abs(dif - node->val));
+        }
+        m = min({m, getMinimumDifference(root->left),getMinimumDifference(root->right)});
         return m;
     }
 };
