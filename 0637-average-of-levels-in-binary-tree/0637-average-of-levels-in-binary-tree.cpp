@@ -11,21 +11,22 @@
  */
 class Solution {
 public:
-    void temp(TreeNode* node, unordered_map<int, vector<int>>& mp, int depth){
-        if(!node) return;
-        mp[depth].push_back(node->val);
-        temp(node->left, mp, depth+1);
-        temp(node->right, mp, depth+1);
-    }
-
     vector<double> averageOfLevels(TreeNode* root) {
+        if(!root) return {};
         vector<double> res;
-        if(!root) return res;
-        unordered_map<int, vector<int>> mp;
-        temp(root, mp, 0);
-        for(int i=0;i<mp.size();i++){
-            double sum = accumulate(mp[i].begin(), mp[i].end(), double(0));
-            res.push_back(sum / mp[i].size());
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()){
+            int size = q.size();
+            double sum = 0;
+            for(int i=0;i<size;i++){
+                TreeNode* cur = q.front();
+                q.pop();
+                sum += cur->val;
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+            }
+            res.push_back(sum / size);
         }
         return res;
     }
