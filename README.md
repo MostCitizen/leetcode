@@ -11,3 +11,10 @@
 **Total Solved:** 252
 
 Last Updated: 2026-10-20 12:32 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/MostCitizen/leetcode/tree/master/3863-minimum-operations-to-sort-a-string) |
+<!---LeetCode Topics End-->
