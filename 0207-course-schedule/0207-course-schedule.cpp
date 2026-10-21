@@ -1,26 +1,24 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        if(prerequisites.size() == 0) return true;
-        vector<vector<int>> v(numCourses);
+        unordered_map<int, vector<int>> map;
         vector<int> visits(numCourses);
-
-        for(vector<int> prerequisite : prerequisites){
-            v[prerequisite[0]].push_back(prerequisite[1]);
+        for(vector<int> v : prerequisites){
+            map[v[0]].push_back(v[1]);
         }
-        for(int i=0;i<numCourses;i++){
-            if(!DFS(v, i, visits)) return false;
+        for(auto [key, val] : map){
+            if(isLoop(map, visits, key)) return false;
         }
         return true;
     }
-    bool DFS(vector<vector<int>>& graph, int target, vector<int>& visits){
-        if(visits[target] == 1) return false;
-        else if(visits[target] == 2) return true;
-        visits[target] = 1;
-        for(int num : graph[target]){
-            if(!DFS(graph, num, visits)) return false;
+    bool isLoop(unordered_map<int, vector<int>>& map, vector<int>& visits, int val){
+        if(visits[val] == 1) return true;
+        else if(visits[val] == 2) return false;
+        visits[val] = 1;
+        for(int num : map[val]){
+            if(isLoop(map, visits, num)) return true;
         }
-        visits[target] = 2;
-        return true;
+        visits[val] = 2;
+        return false;
     }
 };
