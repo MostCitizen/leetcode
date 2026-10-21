@@ -10,27 +10,4 @@
 
 **Total Solved:** 253
 
-Last Updated: 2026-10-21 10:13 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Depth-First Search
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/MostCitizen/leetcode/tree/master/0207-course-schedule) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/MostCitizen/leetcode/tree/master/0207-course-schedule) |
-## Graph Theory
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/MostCitizen/leetcode/tree/master/0207-course-schedule) |
-## Topological Sort
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/MostCitizen/leetcode/tree/master/0207-course-schedule) |
-## Directed Acyclic Graph
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/MostCitizen/leetcode/tree/master/0207-course-schedule) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-10-21 11:30 UTC
