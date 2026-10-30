@@ -3,19 +3,23 @@ public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> res;
         vector<int> v;
-        make(candidates, target, 0, 0, v, res);
+        int sum = 0;
+        solve(res, candidates, target, sum, v, 0);
         return res;
     }
-
-    void make(vector<int> c, int target, int total, int index, vector<int> v, vector<vector<int>>& res){
-        if(total == target){
+    void solve(vector<vector<int>>& res, vector<int>& candidates, int target, int sum, vector<int>& v, int start){
+        if(sum == target){
             res.push_back(v);
             return;
+        }else if(sum > target){
+            return;
         }
-        if(index >= c.size() || total > target) return;
-        v.push_back(c[index]);
-        make(c, target, total+c[index], index, v, res);
-        v.pop_back();
-        make(c, target, total, index+1, v, res);
+        for(int i=start;i<candidates.size();i++){
+            v.push_back(candidates[i]);
+            sum += candidates[i];
+            solve(res, candidates, target, sum, v, i);
+            sum -= candidates[i];
+            v.pop_back();
+        }
     }
 };
