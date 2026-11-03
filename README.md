@@ -10,27 +10,4 @@
 
 **Total Solved:** 259
 
-Last Updated: 2026-11-03 08:33 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0023-merge-k-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0023-merge-k-sorted-lists) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0023-merge-k-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0023-merge-k-sorted-lists) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0023-merge-k-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0023-merge-k-sorted-lists) |
-## Merge Sort
-|  |
-| ------- |
-| [0023-merge-k-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0023-merge-k-sorted-lists) |
-## Tournament Sort
-|  |
-| ------- |
-| [0023-merge-k-sorted-lists](https://github.com/MostCitizen/leetcode/tree/master/0023-merge-k-sorted-lists) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-11-03 09:25 UTC
