@@ -11,32 +11,42 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if(lists.size() == 0) return nullptr;
-        else if(lists.size() == 1) return lists[0];
-        vector<ListNode*> temp;
-        for(int i=0;i<lists.size()-1;i+=2){
-            temp.push_back(mergerTow(lists[i], lists[i+1]));
+        int n = lists.size();
+        if(n == 0) return nullptr;
+        else if(n == 1) return lists[0];
+        vector<ListNode*> v;
+        for(int i=0;i<n;i+=2){
+            if(i+1 == n) break;
+            v.push_back(merge(lists[i], lists[i+1]));
         }
-        if(lists.size() % 2 == 1){
-            temp.push_back(lists[lists.size()-1]);
+        if(n % 2 == 1){
+            v.push_back(lists[n-1]);
         }
-        return mergeKLists(temp);
+        if(v.size() == 1){
+            return v[0];
+        }else {
+            return mergeKLists(v);
+        }
     }
 
-    ListNode* mergerTow(ListNode* node1, ListNode* node2){
+    ListNode* merge(ListNode* l1, ListNode* l2){
         ListNode* res = new ListNode();
         ListNode* cur = res;
-        while(node1 && node2){
-            if(node1->val < node2->val){
-                cur->next = new ListNode(node1->val);
-                node1 = node1->next;
+        while(l1 && l2){
+            if(l1->val < l2->val){
+                cur->next = l1;
+                l1 = l1->next;
             }else {
-                cur->next = new ListNode(node2->val);
-                node2 = node2->next;
+                cur->next = l2;
+                l2 = l2->next;
             }
             cur = cur->next;
         }
-        cur->next = node1 ? node1 : node2;
+        if(l1){
+            cur->next = l1;
+        }else if(l2){
+            cur->next = l2;
+        }
         return res->next;
     }
 };
