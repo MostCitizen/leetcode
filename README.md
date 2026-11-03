@@ -11,3 +11,18 @@
 **Total Solved:** 259
 
 Last Updated: 2026-11-03 09:25 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/MostCitizen/leetcode/tree/master/0053-maximum-subarray) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/MostCitizen/leetcode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/MostCitizen/leetcode/tree/master/0053-maximum-subarray) |
+<!---LeetCode Topics End-->
