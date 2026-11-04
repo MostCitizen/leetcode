@@ -3,34 +3,27 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
         int n = matrix[0].size();
-        int rowL = 0;
-        int rowR = m-1;
-        int colL = 0;
-        int colR = n-1;
-        while(rowL <= rowR){
-            int rowM = rowL + (rowR - rowL) /2;
-            if(matrix[rowM][0] == target) return true;
-            else if(matrix[rowM][0] < target && target <= matrix[rowM][colR]){
-                while(colL <= colR){
-                    int colM = colL + (colR - colL) /2;
-                    if(matrix[rowM][colM] == target) return true;
-                    else if(colM-1 >= 0 && matrix[rowM][colM-1] < target && target < matrix[rowM][colM]){
-                        return false;
-                    }
-                    else if(matrix[rowM][colM] > target) {
-                        colR = colM - 1;
-                    }
-                    else if(matrix[rowM][colM] < target){
-                        colL = colM + 1;
+        int left = 0, right = m - 1;
+        while(left <= right){
+            int mid = (left + right) / 2;
+            if(matrix[mid][0] <= target && target <= matrix[mid][n-1]){
+                left = 0;
+                right = n-1;
+                while(left <= right){
+                    int colMid = (left + right) / 2;
+                    if(matrix[mid][colMid] == target){
+                        return true;
+                    }else if(matrix[mid][colMid] < target){
+                        left = colMid + 1;
+                    }else {
+                        right = colMid - 1;
                     }
                 }
                 return false;
-            }
-            else if(matrix[rowM][0] > target){
-                rowR = rowM - 1;
-            }
-            else {
-                rowL = rowM + 1;
+            }else if(matrix[mid][0] < target){
+                left = mid + 1;
+            }else {
+                right = mid - 1;
             }
         }
         return false;
