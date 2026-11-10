@@ -1,24 +1,18 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        int left = 0, right = x;
-        bool isMin = false;
-        bool isMax = false;
-
-        while(left<=right){
-            int mid = left + (right - left)/2;
-            long long sqrt = (long long)mid * mid;
-            if(sqrt < x){
-                left = mid+1;
-            }
-            else if(sqrt == x){
-                return mid;
-            }
-            else {
-                right = mid-1;
+        int l = 0, r = x;
+        while(l <= r){
+            int m = (l + r) / 2;
+            long long po = (long long)m * m;
+            if(po == x){
+                return m;
+            }else if(po < x){
+                l = m + 1;
+            }else {
+                r = m - 1;
             }
         }
-        return right;
-
+        return r;
     }
 };
