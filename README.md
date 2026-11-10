@@ -10,15 +10,4 @@
 
 **Total Solved:** 260
 
-Last Updated: 2026-11-09 12:12 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0066-plus-one](https://github.com/MostCitizen/leetcode/tree/master/0066-plus-one) |
-## Math
-|  |
-| ------- |
-| [0066-plus-one](https://github.com/MostCitizen/leetcode/tree/master/0066-plus-one) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-11-10 06:56 UTC
