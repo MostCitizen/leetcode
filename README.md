@@ -10,11 +10,4 @@
 
 **Total Solved:** 263
 
-Last Updated: 2026-11-12 08:07 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0006-zigzag-conversion](https://github.com/MostCitizen/leetcode/tree/master/0006-zigzag-conversion) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-11-17 06:02 UTC
