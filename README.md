@@ -4,17 +4,10 @@
 
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|--------|
-| C++ | 73 | 158 | 11 | 242 |
+| C++ | 73 | 159 | 11 | 243 |
 | Python | 1 | 1 | 0 | 2 |
 | SQL | 16 | 3 | 0 | 19 |
 
-**Total Solved:** 263
+**Total Solved:** 264
 
-Last Updated: 2026-11-17 08:34 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/MostCitizen/leetcode/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-11-18 08:55 UTC
