@@ -10,15 +10,4 @@
 
 **Total Solved:** 266
 
-Last Updated: 2026-11-22 06:27 UTC
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/MostCitizen/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
-## Two Pointers
-|  |
-| ------- |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/MostCitizen/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
-<!---LeetCode Topics End-->
+Last Updated: 2026-11-22 06:52 UTC
