@@ -13,16 +13,20 @@ public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(!head) return head;
         ListNode* cur = head;
-        vector<ListNode*> v;
+        vector<int> v;
         while(cur){
-            v.push_back(cur);
+            v.push_back(cur->val);
             cur = cur->next;
         }
-        int size = v.size();
-        int re = k % size;
-        if(re == 0) return head;
-        v[size-1-re]->next = nullptr;
-        v[size-1]->next = head;
-        return v[size-re];
+        ListNode* res = new ListNode();
+        cur = res;
+        int n = v.size();
+        k = k % n;
+        if(k == 0) return head;
+        for(int i=0;i<n;i++){
+            cur->next = new ListNode(v[(n - k + i)%n]);
+            cur = cur->next;
+        }
+        return res->next;
     }
 };
