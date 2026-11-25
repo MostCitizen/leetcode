@@ -12,32 +12,26 @@ class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
         if(!head) return head;
-        ListNode* cur = head;
-        ListNode* res = head;
-        set<int> removeSet;
-        while(cur->next){
-            if(cur->val == cur->next->val) {
-                removeSet.insert(cur->val);
-                cur = cur->next;
-            }
-            else if(removeSet.count(cur->val) == 0){
-                ListNode* temp = cur->next;
-                cur->next = nullptr;
-                if(res != cur){
-                    res->next = cur;
-                    res = res->next;
+        ListNode* cur = head, *prev = nullptr, *next = head->next;
+        while(next && cur){
+            if(cur->val == next->val){
+                ListNode* temp = cur;
+                while(temp && temp->val == next->val){
+                    temp = temp->next;
+                }
+                if(cur == head){
+                    head = temp;
+                    prev = nullptr;
+                }else {
+                    prev->next = temp;
                 }
                 cur = temp;
             }else {
+                prev = cur;
                 cur = cur->next;
             }
-        }
-        if(removeSet.count(cur->val) == 0 && res != cur){
-            res->next = cur;
-            res = res->next;
-        }
-        while(head && removeSet.count(head->val) > 0){
-            head = head->next;
+            if(cur)
+                next = cur->next;
         }
         return head;
     }
