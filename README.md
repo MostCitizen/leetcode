@@ -11,3 +11,14 @@
 **Total Solved:** 268
 
 Last Updated: 2026-11-25 12:07 UTC
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [3360-stone-removal-game](https://github.com/MostCitizen/leetcode/tree/master/3360-stone-removal-game) |
+## Simulation
+|  |
+| ------- |
+| [3360-stone-removal-game](https://github.com/MostCitizen/leetcode/tree/master/3360-stone-removal-game) |
+<!---LeetCode Topics End-->
